@@ -1,0 +1,23 @@
+.inactive {
+    svg,
+    path {
+        @apply fill-[#000000] hover:text-white-100;
+        @apply hover:text-white-100;
+    }
+    
+}
+
+.active {
+    //@apply text-primary-100 bg-accent-10 font-bold;
+    svg,
+    path, rect {
+        @apply fill-[#FFFFFF];
+    }
+}
+
+// box-shadow: 0px 2px 4px 0px #2D3B430D;
+
+// box-shadow: 0px 2px 6px 0px #2D3B430F;
+// box-shadow: 0px 2px 4px 0px rgba(45, 59, 67, 0.05);
+
+// box-shadow: 0px 2px 6px 0px rgba(45, 59, 67, 0.06);

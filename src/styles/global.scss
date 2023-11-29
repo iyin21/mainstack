@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl;
+    }
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+    h4 {
+        @apply text-2lg;
+    }
+    h5 {
+        @apply text-lg;
+    }
+    h6 {
+        @apply text-3md;
+    }
+    .body-medium {
+        @apply text-2md;
+    }
+    .body-regular {
+        @apply text-md;
+    }
+    .body-small {
+        @apply text-sm;
+    }
+}
+
+.btn--primary {
+    @apply bg-black-100 text-white-100 text-2md py-1;
+}
+.btn--gray{
+    @apply bg-[#EFF1F6] text-black-100 text-2md;
+}
+.btn--clear{
+    @apply bg-transparent text-black-100 text-2md border font-semibold rounded-[#EFF1F6];
+}
+body{
+    font-family: degular-variable, sans-serif;
+    font-style: normal;
+font-variation-settings: "ital" 0, "opsz" 6, "wght" 200;
+}
